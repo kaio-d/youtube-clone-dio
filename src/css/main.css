@@ -1,2 +1,56 @@
 @import url(./reset.css);
 
+body {
+  background-color: #f9f9f9;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.menu .left {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu .center {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.menu .center input {
+  width: 348px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  position: relative;
+}
+
+.menu .center button {
+  width: 57px;
+  height: 40px;
+  border: 1px solid #cccccc;
+}
+
+.menu .right ul {
+  display: flex;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  margin-right: 24px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu .right .foto-de-perfil {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
