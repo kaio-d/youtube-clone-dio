@@ -69,8 +69,8 @@ p {
 }
 
 .assistir-video {
-  margin-top: 28px;
   margin-left: 75px;
+  margin-top: 28px;
 }
 
 .assistir-video .conteudo-principal iframe {
@@ -155,11 +155,46 @@ p {
   width: 510px;
   height: 64px;
   margin-top: 16px;
-  margin-left: 75px;
   margin-bottom: 194px;
 }
 
 .informacoes-adicionais h2 {
   margin-bottom: 16px;
+}
+
+.teste {
+  display: flex;
+}
+
+.sidebar {
+  margin-left: 25px;
+  margin-top: 16px;
+}
+
+.sidebar .recomendados {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.sidebar .recomendados:nth-child(1){
+  margin-top: 0;
+}
+
+.sidebar .recomendados img {
+  margin-right: 16px;
+  width: 160px;
+  height: 90px;
+}
+
+.sidebar .recomendados .sobre-o-video {
+  width: 240px;
+}
+.sidebar .recomendados .sobre-o-video h2 {
+  margin-bottom: 8px;
+}
+
+.sidebar .recomendados .sobre-o-video .canal {
+  margin-bottom: 7px;
 }
 
