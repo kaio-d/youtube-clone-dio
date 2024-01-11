@@ -4,6 +4,19 @@ body {
   background-color: #f9f9f9;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+p {
+  color: #515151;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -131,9 +144,22 @@ body {
 }
 
 .opcoes .actions p {
+  color: #000;
   margin-left: 8px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16.41px;
+}
+
+.informacoes-adicionais {
+  width: 510px;
+  height: 64px;
+  margin-top: 16px;
+  margin-left: 75px;
+  margin-bottom: 194px;
+}
+
+.informacoes-adicionais h2 {
+  margin-bottom: 16px;
 }
 
