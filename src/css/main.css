@@ -119,3 +119,21 @@ body {
   line-height: 16.41px;
   border: none;
 }
+
+.opcoes {
+  display: flex;
+  gap: 42px;
+}
+
+.opcoes .actions {
+  display: flex;
+  align-items: center;
+}
+
+.opcoes .actions p {
+  margin-left: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
