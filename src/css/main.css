@@ -33,6 +33,15 @@ p {
   gap: 32px;
 }
 
+.menu .left .menu-hamburguer {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.menu .left .menu-hamburguer:hover {
+  background-color: #8080805b;
+  border-radius: 50%;
+}
+
 .menu .center {
   display: flex;
   margin-top: 8px;
@@ -44,9 +53,16 @@ p {
   height: 40px;
   border: 1px solid #cccccc;
   position: relative;
+  padding-left: 15px;
+}
+
+.menu input::placeholder {
+  font-size: 14px;
+  color: #515151;
 }
 
 .menu .center button {
+  cursor: pointer;
   width: 57px;
   height: 40px;
   border: 1px solid #cccccc;
@@ -60,6 +76,16 @@ p {
   gap: 24px;
   align-items: center;
   justify-content: center;
+}
+
+.menu .right ul li {
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.menu .right ul li:hover {
+  background-color: #8080805b;
 }
 
 .menu .right .foto-de-perfil {
@@ -115,12 +141,14 @@ p {
 }
 
 .assistir-video .video-actions .channel img {
+  cursor: pointer;
   width: 42px;
   height: 42px;
   border-radius: 50%;
 }
 
 .assistir-video button {
+  cursor: pointer;
   width: 159px;
   height: 40px;
   border-radius: 2px;
@@ -141,6 +169,16 @@ p {
 .opcoes .actions {
   display: flex;
   align-items: center;
+}
+
+.opcoes .actions img {
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.opcoes .actions img:hover {
+  background-color: #8080805b;
+  border-radius: 50%;
 }
 
 .opcoes .actions p {
@@ -198,3 +236,6 @@ p {
   margin-bottom: 7px;
 }
 
+.active {
+  background-color: rgba(0, 170, 255, 0.397);
+}

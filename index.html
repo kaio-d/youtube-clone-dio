@@ -10,12 +10,16 @@
     <div class="container">
       <div class="menu">
         <div class="left">
-          <img src="./src/imagens/icons/menu.svg" alt="Menu Hamburguer" />
-          <img src="./src/imagens/youtube 1.png" alt="Youtube Logo" />
+          <a href="#" class="menu-hamburguer">
+            <img src="./src/imagens/icons/menu.svg" alt="Menu Hamburguer" />
+          </a>
+          <a href="./index.html">
+            <img src="./src/imagens/youtube 1.png" alt="Youtube Logo" />
+          </a>
         </div>
         <div class="center">
-          <input type="text" />
-          <button>
+          <input type="text" placeholder="Pesquisar" />
+          <button title="Pesquisar">
             <img src="./src/imagens/icons/search.svg" alt="" />
           </button>
         </div>
@@ -69,11 +73,15 @@
             <button>Inscreva-se</button>
             <div class="opcoes">
               <div class="actions">
-                <img src="./src/imagens/icons/like.svg" alt="Like" />
+                <img src="./src/imagens/icons/like.svg" alt="Like" id="like" />
                 <p>926 mil</p>
               </div>
               <div class="actions">
-                <img src="./src/imagens/icons/deslike.svg" alt="Deslike" />
+                <img
+                  src="./src/imagens/icons/deslike.svg"
+                  alt="Deslike"
+                  id="deslike"
+                />
                 <p>Não Gostei</p>
               </div>
               <div class="actions">
@@ -194,8 +202,22 @@
               <p>Transmitido em 20 de out. de 2023</p>
             </div>
           </div>
+          <div class="recomendados">
+            <img
+              src="./src/imagens/recomendados/HORIZON-FORBIDDEN-WEST.jpg"
+              alt="Capa do Jogo Mario"
+            />
+            <div class="sobre-o-video">
+              <h2>Horizon Forbidden West - Trailer da História | PS5, PS4</h2>
+              <p class="canal">PlayStation Brasil</p>
+              <p>3.646.291 visualizações</p>
+              <p>Transmitido em 31 de jan. de 2022</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <script src="./src/javascript/main.js" defer></script>
   </body>
 </html>
